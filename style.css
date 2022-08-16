@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: url('./map.jpeg') no-repeat center fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: auto;
+    background-color: white;
+    margin: 0 25%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.input-search {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+}
+
+.result {
+    width: 100%;
+}
+
+.country {
+    transition: background 0.2s;
+}
+
+.country td {
+    width: 25%;
+    height: 40px;
+}
+
+.no-result {
+    margin: 0 auto;
+    padding: 20px 0;
+    color: white;
+    background-color: red;
+    opacity: 0.33;
+    font-weight: bold;
+}
